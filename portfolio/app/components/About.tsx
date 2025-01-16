@@ -19,7 +19,7 @@ const About: React.FC = () => {
                             <SiOpenai className="w-6 h-6 text-green-500" />
                             <strong>ChatGPT</strong>
                         </span>
-                        <span>using continuous deployment from a Git repository.</span>
+                        <span>This site was created using continuous deployment from a Git repository.</span>
                     </p>
                 </div>
 
