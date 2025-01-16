@@ -24,10 +24,14 @@ const About: React.FC = () => {
                 </div>
 
                 {/* Content Grid */}
+                <h2 className="text-3xl font-bold text-gray-800 mb-12">
+                    Ramón Alejandro Briceño Salazar - Full Stack Developer | WordPress Specialist
+                </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Left Column: Professional Overview */}
                     <div>
-                        <h2 className="text-3xl font-bold text-gray-800 mb-6">
+
+                        <h2 className="text-2xl font-bold text-gray-800 mb-6">
                             Professional Overview
                         </h2>
                         <p className="text-lg text-gray-600 leading-relaxed">
@@ -46,7 +50,7 @@ const About: React.FC = () => {
 
                     {/* Right Column: Technical Skills */}
                     <div>
-                        <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                        <h2 className="text-2xl font-bold text-gray-800 mb-6">
                             Technical Skills
                         </h2>
                         <ul className="space-y-4 text-lg text-gray-600">
