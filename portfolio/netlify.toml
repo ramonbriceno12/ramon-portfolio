@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = ".next"
-  functions = "netlify/functions"
-  
+  command = "cd portfolio && npm run build"
+  publish = "portfolio/.next"
+  functions = "portfolio/netlify/functions"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
