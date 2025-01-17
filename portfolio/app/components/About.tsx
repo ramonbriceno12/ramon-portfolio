@@ -35,16 +35,17 @@ const About: React.FC = () => {
                             Professional Overview
                         </h2>
                         <p className="text-lg text-gray-600 leading-relaxed">
-                            I am a computer scientist with extensive experience in web
-                            development. Fluent in Spanish (native) and English (C1 level),
-                            my goal is to work on international and local projects,
-                            collaborating with companies and CEOs to create reliable,
-                            user-focused products for global clients.
-                        </p>
-                        <p className="text-lg text-gray-600 leading-relaxed mt-4">
-                            My expertise includes Full Stack Development, WordPress
-                            solutions, API development, and SEO optimization, with a strong
-                            emphasis on delivering high-quality results.
+                            💻 Computer Scientist with extensive experience in web development.<br/>
+                            🇪🇸 Native Spanish speaker,<br/>
+                            🇺🇸 C1 level in English.<br/>
+
+                            🌍 Experienced in international and local projects, collaborating directly with CEOs to deliver reliable products for clients worldwide.
+                            <br/>
+                            🤖 Embracing AI to optimize and accelerate development processes, delivering smarter solutions faster.
+                            <br/>
+                            🤝 Team player: I value collaboration and actively share ideas throughout the development process.
+                            <br/>
+                            💡 Strong soft skills: Excellent communication, problem-solving, and adaptability, ensuring smooth collaboration and efficient project delivery.
                         </p>
                     </div>
 
