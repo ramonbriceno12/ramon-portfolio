@@ -1,4 +1,5 @@
 import {
+    SiWordpress,
     SiPhp,
     SiJavascript,
     SiMysql,
@@ -40,6 +41,10 @@ const About: React.FC = () => {
                         <span className="flex items-center space-x-2">
                             <SiOpenai className="w-6 h-6 text-green-500" />
                             <strong>ChatGPT</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiWordpress className="w-6 h-6 text-blue-500" />
+                            <strong>Wordpress</strong>
                         </span>
                         <span className="flex items-center space-x-2">
                             <SiPhp className="w-6 h-6 text-purple-500" />
