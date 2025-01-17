@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
                     <Image
                         src="/img/logos/logo.png" // Ensure this path points to /public/img/logos/logo.png
                         alt="logo"
-                        width={192}
-                        height={192}
+                        width={140}
+                        height={140}
                         priority // Load the image as a priority
                     />
                 </div>
