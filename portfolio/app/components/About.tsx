@@ -8,14 +8,12 @@ import {
     SiNodedotjs,
     SiReact,
     SiNextdotjs,
-    SiReactrouter,
     SiAmazonwebservices,
     SiPostman,
     SiCanva,
     SiGit,
     SiJira,
     SiDocker,
-    SiChatbot,
     SiGithub,
     SiOpenai
 } from "react-icons/si";
