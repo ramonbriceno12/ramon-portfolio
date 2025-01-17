@@ -1,9 +1,33 @@
-import { SiNextdotjs, SiGithub, SiOpenai } from "react-icons/si";
+import {
+    SiPhp,
+    SiJavascript,
+    SiMysql,
+    SiPostgresql,
+    SiSymfony,
+    SiLaravel,
+    SiNodedotjs,
+    SiReact,
+    SiNextdotjs,
+    SiReactrouter,
+    SiAmazonwebservices,
+    SiPostman,
+    SiCanva,
+    SiGit,
+    SiJira,
+    SiDocker,
+    SiChatbot,
+    SiGithub,
+    SiOpenai
+} from "react-icons/si";
 
 const About: React.FC = () => {
     return (
         <section id="about" className="py-16 px-4 sm:px-6 lg:px-12 xl:px-24 mt-60">
             <div className="max-w-7xl mx-auto">
+                {/* Content Grid */}
+                <h2 className="text-3xl font-bold text-gray-800 mb-12">
+                    Ramón Alejandro Briceño Salazar - Full Stack Developer | WordPress Specialist
+                </h2>
                 {/* Top Section: Message with Icons */}
                 <div className="mb-12">
                     <p className="text-lg text-gray-800 flex flex-wrap items-center justify-center gap-4">
@@ -19,14 +43,67 @@ const About: React.FC = () => {
                             <SiOpenai className="w-6 h-6 text-green-500" />
                             <strong>ChatGPT</strong>
                         </span>
-                        <span>This site was created using continuous deployment from a Git repository.</span>
+                        <span className="flex items-center space-x-2">
+                            <SiPhp className="w-6 h-6 text-purple-500" />
+                            <strong>PHP</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiJavascript className="w-6 h-6 text-yellow-500" />
+                            <strong>JavaScript</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiMysql className="w-6 h-6 text-blue-500" />
+                            <strong>MySQL</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiPostgresql className="w-6 h-6 text-blue-700" />
+                            <strong>PostgreSQL</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiSymfony className="w-6 h-6 text-gray-800" />
+                            <strong>Symfony</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiLaravel className="w-6 h-6 text-red-500" />
+                            <strong>Laravel</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiNodedotjs className="w-6 h-6 text-green-500" />
+                            <strong>Node.js</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiReact className="w-6 h-6 text-blue-500" />
+                            <strong>React</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiAmazonwebservices className="w-6 h-6 text-orange-500" />
+                            <strong>AWS</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiPostman className="w-6 h-6 text-orange-600" />
+                            <strong>Postman</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiCanva className="w-6 h-6 text-blue-500" />
+                            <strong>Canva</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiGit className="w-6 h-6 text-black" />
+                            <strong>Git</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiJira className="w-6 h-6 text-blue-700" />
+                            <strong>Jira</strong>
+                        </span>
+                        <span className="flex items-center space-x-2">
+                            <SiDocker className="w-6 h-6 text-blue-500" />
+                            <strong>Docker</strong>
+                        </span>
                     </p>
                 </div>
 
-                {/* Content Grid */}
-                <h2 className="text-3xl font-bold text-gray-800 mb-12">
-                    Ramón Alejandro Briceño Salazar - Full Stack Developer | WordPress Specialist
-                </h2>
+
+                
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Left Column: Professional Overview */}
                     <div>
@@ -35,16 +112,16 @@ const About: React.FC = () => {
                             Professional Overview
                         </h2>
                         <p className="text-lg text-gray-600 leading-relaxed">
-                            💻 Computer Scientist with extensive experience in web development.<br/>
-                            🇪🇸 Native Spanish speaker,<br/>
-                            🇺🇸 C1 level in English.<br/>
+                            💻 Computer Scientist with extensive experience in web development.<br />
+                            🇪🇸 Native Spanish speaker,<br />
+                            🇺🇸 C1 level in English.<br />
 
                             🌍 Experienced in international and local projects, collaborating directly with CEOs to deliver reliable products for clients worldwide.
-                            <br/>
+                            <br />
                             🤖 Embracing AI to optimize and accelerate development processes, delivering smarter solutions faster.
-                            <br/>
+                            <br />
                             🤝 Team player: I value collaboration and actively share ideas throughout the development process.
-                            <br/>
+                            <br />
                             💡 Strong soft skills: Excellent communication, problem-solving, and adaptability, ensuring smooth collaboration and efficient project delivery.
                         </p>
                     </div>
