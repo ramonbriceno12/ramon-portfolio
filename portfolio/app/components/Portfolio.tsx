@@ -7,6 +7,17 @@ interface Project {
 
 const projects: Project[] = [
     {
+        "title": "Talentiave.com (Venezuela)",
+        "link": "https://talentiave.com/", 
+        "description": "Job search and recruitment platform.",
+        "duties": [
+            "Designed and developed the platform from scratch.",
+            "Implemented a full-stack architecture using Next.js, Node.js, PostgreSQL, and AWS.",
+            "Managed cloud infrastructure and optimized database performance for scalability.",
+            "Led business strategy, operations, and client relations."
+        ]
+    },
+    {
         title: "7Wayfinders (USA)",
         link: "https://7wayfinders.com/", // Add your link here
         description: "Website for a travel family.",
