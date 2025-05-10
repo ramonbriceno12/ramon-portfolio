@@ -9,19 +9,6 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    "role": "CEO & Co-Founder",
-    "technologies": "Next.js | Node.js | PostgreSQL | AWS",
-    "company": "Talentiave.com (Venezuela)",
-    "dateRange": "2025 – Present",
-    "clients": [],
-    "responsibilities": [
-      "Designed and developed the platform from scratch.",
-      "Implemented a full-stack architecture using Next.js, Node.js, PostgreSQL, and AWS.",
-      "Managed cloud infrastructure and optimized database performance for scalability.",
-      "Led business strategy, operations, and client relations."
-    ]
-  },
-  {
     role: "Tech Lead",
     technologies: "PHP | MySQL | Node.js | AWS | WordPress",
     company: "Kajae LLC. (USA)",
