@@ -53,32 +53,70 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html">Home<br></a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="service-details.html">Events</a></li>
-            <li><a href="services.html">Venues</a></li>
-            <li><a href="team.html">Gallery</a></li>
-            <li class="dropdown"><a href="#"><span>Information</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <!-- Home & About -->
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+  
+            <!-- Kids dropdown -->
+            <li class="dropdown">
+              <a href="#"><span>KIDS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <!-- <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                      class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li> -->
-                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
-                <li><a href="#">FAQS</a></li>
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="meet-the-team.html">MEET THE TEAM</a></li>
+                <li><a href="our-expertise-kids.html">OUR EXPERTISE</a></li>
+                <li><a href="our-services-kids.html">OUR SERVICES</a></li>
+                <li><a href="exclusive-parties.html">EXCLUSIVE PARTIES</a></li>
+                <li><a href="wedding-kids.html">WEDDING KIDS</a></li>
+                <li><a href="click-party.html">CLICK PARTY (DECIDE ON NEW NAME)</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+  
+            <!-- Adults dropdown -->
+            <li class="dropdown">
+              <a href="#"><span>ADULTS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="your-event.html">YOUR EVENT</a></li>
+                <li><a href="your-expertise-adults.html">YOUR EXPERTISE</a></li>
+                <li><a href="your-services-adults.html">YOUR SERVICES</a></li>
+                <li><a href="your-special-day.html">YOUR SPECIAL DAY</a></li>
+                <li><a href="wedding-kids.html">WEDDING KIDS</a></li>
+              </ul>
+            </li>
+  
+            <!-- Wedding & Venues -->
+            <li><a href="wedding.html">WEDDING</a></li>
+            <li><a href="venues.html">VENUES</a></li>
+  
+            <!-- Information dropdown -->
+            <li class="dropdown">
+              <a href="#"><span>INFORMATION</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="terms-conditions.html">TERMS &amp; CONDITIONS</a></li>
+                <li><a href="privacy-policy.html">PRIVACY POLICY</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+  
+            <!-- Contact -->
+            <li><a href="contact.html">CONTACT US</a></li>
+  
+            <!-- Language selector -->
+            <li class="dropdown language">
+              <a href="#"><span>ENGLISH</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="?lang=de">DEUTSCH</a></li>
+                <li><a href="?lang=es">ESPAÑOL</a></li>
+              </ul>
+            </li>
+  
+            <!-- Instagram icon -->
+            <li class="social">
+              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
           </ul>
+  
+          <!-- mobile toggle -->
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
@@ -89,7 +127,7 @@
 
       <!-- Page Title -->
       <div class="page-title dark-background" data-aos="fade"
-        style="background-image: url(assets/img/about/banner.JPG);">
+        style="background-image: url(assets/img/about/banner.png);">
         <div class="container">
           <h1>About</h1>
           <nav class="breadcrumbs">
@@ -108,11 +146,11 @@
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-5">
-              <img src="assets/img/about/1.JPG" class="img-fluid" alt>
+              <img src="assets/img/about/1.png" style="max-height: 550px;" class="img-fluid" alt>
             </div>
             <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
               <div class="content">
-                <!-- <h3>Voluptatem dignissimos provident quasi</h3> -->
+                <h3>It all begins with an idea</h3>
                 <p>
                   Lidia the Bruijn, the founder of The Party Lab, started her
                   journey into the world of entertainment with a deep passion
@@ -136,7 +174,7 @@
                   for bringing people together, The Party Lab team is here to
                   turn your special moments into lifelong memories.
                 </p>
-                <ul>
+                <!-- <ul>
                   <li><i class="bi bi-check-circle-fill"></i>
                     <span>Babyshower</span></li>
                   <li><i class="bi bi-check-circle-fill"></i> <span>1st
@@ -150,7 +188,7 @@
                   <li><i class="bi bi-check-circle-fill"></i> <span>Wedding
                       Kids</span></li>
 
-                </ul>
+                </ul> -->
               </div>
             </div>
           </div>
@@ -160,7 +198,7 @@
       </section><!-- /About Section -->
 
       <!-- Why Us Section -->
-      <section id="why-us" class="why-us section">
+      <!-- <section id="why-us" class="why-us section">
 
         <div class="container">
 
@@ -207,7 +245,7 @@
                         champagne and sharing moments with friends and family,
                         we've got the little ones covered.</p>
                     </div>
-                  </div><!-- End slide item -->
+                  </div>
 
                   <div class="swiper-slide">
                     <div class="item">
@@ -219,7 +257,7 @@
                         We offer a unique solution that ensures a perfect
                         experience for everyone involved.</p>
                     </div>
-                  </div><!-- End slide item -->
+                  </div>
 
                   <div class="swiper-slide">
                     <div class="item">
@@ -231,7 +269,7 @@
                         bounce house, ensuring that the kids have a fantastic
                         time throughout the wedding.</p>
                     </div>
-                  </div><!-- End slide item -->
+                  </div>
 
                 </div>
                 <div class="swiper-pagination"></div>
@@ -245,10 +283,11 @@
 
         </div>
 
-      </section><!-- /Why Us Section -->
+      </section> -->
+      <!-- /Why Us Section -->
 
       <!-- Call To Action Section -->
-      <section id="call-to-action"
+      <!-- <section id="call-to-action"
         class="call-to-action section dark-background">
 
         <img src="assets/img/about/2.jpg" alt>
@@ -269,7 +308,8 @@
           </div>
         </div>
 
-      </section><!-- /Call To Action Section -->
+      </section> -->
+      <!-- /Call To Action Section -->
 
       <!-- Team Section -->
       <section id="team" class="team section">
