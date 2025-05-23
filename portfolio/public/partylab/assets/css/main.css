@@ -26,10 +26,157 @@
   src: url("../fonts/passenger-display/PassengerDisplay-Italic-BF63f2d242b3e15.otf");
 }
 
+/* Regular (futur.ttf) */
+@font-face {
+  font-family: 'FuturaRegular';
+  src: url('../fonts/futura/futur.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('../fonts/futura/Futura Bold font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'FuturaBoldItalic';
+  src: url('../fonts/futura/Futura Bold Italic font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Book (regular) */
+@font-face {
+  font-family: 'FuturaBook';
+  src: url('../fonts/futura/Futura Book font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Book Italic */
+@font-face {
+  font-family: 'FuturaBookItalic';
+  src: url('../fonts/futura/Futura Book Italic font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Extra Black */
+@font-face {
+  font-family: 'FuturaExtraBlack';
+  src: url('../fonts/futura/Futura Extra Black font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Heavy */
+@font-face {
+  font-family: 'FuturaHeavy';
+  src: url('../fonts/futura/Futura Heavy font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Heavy Italic */
+@font-face {
+  font-family: 'FuturaHeavyItalic';
+  src: url('../fonts/futura/Futura Heavy Italic font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Light BT */
+@font-face {
+  font-family: 'FuturaLightBT';
+  src: url('../fonts/futura/futura light bt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Light */
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('../fonts/futura/Futura Light font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: 'FuturaLightItalic';
+  src: url('../fonts/futura/Futura Light Italic font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Medium BT */
+@font-face {
+  font-family: 'FuturaMediumBT';
+  src: url('../fonts/futura/futura medium bt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Medium Condensed BT */
+@font-face {
+  font-family: 'FuturaMediumCondensedBT';
+  src: url('../fonts/futura/futura medium condensed bt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'FuturaMediumItalic';
+  src: url('../fonts/futura/Futura Medium Italic font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* XBlk BT (extra-black) */
+@font-face {
+  font-family: 'FuturaXBlkBT';
+  src: url('../fonts/futura/Futura XBlk BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Condensed Light (OTF) */
+@font-face {
+  font-family: 'FuturaCondensedLight';
+  src: url('../fonts/futura/Futura-CondensedLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TT0205M (misc) */
+@font-face {
+  font-family: 'TT0205M';
+  src: url('../fonts/futura/tt0205m_.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Unicode variants */
+@font-face {
+  font-family: 'UnicodeFuturaB';
+  src: url('../fonts/futura/unicode.futurab.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'UnicodeFuturaBB';
+  src: url('../fonts/futura/unicode.futurabb.ttf') format('truetype');
+}
+
+
 :root {
-  --default-font: "PassengerDisplay";
-  --heading-font: "PassengerDisplayBold";
-  --nav-font: "PassengerDisplayItalic";
+  --default-font: "FuturaRegular";
+  --heading-font: "FuturaBold";
+  --nav-font: "FuturaBoldItalic";
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -60,7 +207,7 @@
 }
 
 .dark-background {
-  --background-color: #92a1c3;
+  --background-color: #bed1e3;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #254160;
@@ -102,8 +249,91 @@ h6 {
   font-family: var(--heading-font);
 }
 
+#reviewsCarousel .carousel-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#reviewsCarousel .blockquote {
+  font-style: italic;
+}
+#reviewsCarousel .blockquote p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+#reviewsCarousel .blockquote-footer {
+  margin-top: .5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Next arrow in pink */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f3a0ad' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Prev arrow in pink */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f3a0ad' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+/* Scope our custom fade timing to only #feedCarousel */
+#feedCarousel.carousel-fade .carousel-item {
+  transition: opacity .6s ease;
+}
+
+/* Outgoing slide on #feedCarousel: fade out immediately */
+#feedCarousel.carousel-fade .active.carousel-item-start,
+#feedCarousel.carousel-fade .active.carousel-item-end {
+  transition-delay: 0s;
+}
+
+/* Incoming slide on #feedCarousel: wait for fade-out, then fade in */
+#feedCarousel.carousel-fade .carousel-item-next.carousel-item-start,
+#feedCarousel.carousel-fade .carousel-item-prev.carousel-item-end {
+  transition-delay: .6s;
+}
+
+
+
 /* PHP Email Form Messages
 ------------------------------*/
+
+/* === Unified Input Styles === */
+.php-email-form input[type="text"],
+.php-email-form input[type="email"],
+.php-email-form input[type="tel"],
+.php-email-form select,
+.php-email-form textarea {
+  width: 100%;               /* full width of column */
+  padding: 0.75rem 1rem;     /* same inside spacing */
+  font-size: 1rem;           /* consistent font size */
+  line-height: 1.5;
+  color: #333;               /* dark text */
+  background-color: #fff;    /* white background */
+  background-clip: padding-box;
+  border: 1px solid #ddd;    /* light grey border */
+  border-radius: 0.25rem;    /* rounded corners */
+  transition: border-color .2s, box-shadow .2s;
+}
+
+/* Focus state uses your accent */
+.php-email-form input:focus,
+.php-email-form select:focus,
+.php-email-form textarea:focus {
+  outline: 0;
+  border-color: #f3a0ad;
+  box-shadow: 0 0 0 .2rem rgba(243,160,173, .25);
+}
+
+/* === Pink Checkboxes & Radios === */
+.php-email-form .form-check-input {
+  /* modern way to color checkboxes/radios */
+  accent-color: #f3a0ad;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.25rem;
+}
+
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -750,7 +980,7 @@ section,
     position: absolute;
     content: "";
     width: 44%;
-    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 80%), color-mix(in srgb, var(--background-color), transparent 65%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 1%), color-mix(in srgb, var(--background-color), transparent 65%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
     top: 0;
     bottom: 0;
     z-index: 2;
